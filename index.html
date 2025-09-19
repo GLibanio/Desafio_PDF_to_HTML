@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equações do 2º Grau</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="top-menu">
+        <ul class="nav-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Capítulo</a></li>
+            <li><a href="#">Exercícios</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Equações do 2º Grau</h1>
+            <h3>Desafios matemáticos resolvidos</h3>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section class="check-in-section">
+            <div class="check-in-box">
+                <h2 class="check-in-title">CHECK-IN</h2>
+                <p>Desde os primórdios da civilização, a humanidade sentiu a necessidade de desenvolver ferramentas para
+                    resolver problemas práticos do dia a dia, como medir terras ou prever colheitas. Dentre essas
+                    ferramentas, surgiram as equações, fundamentais para descrever e resolver situações envolvendo
+                    incógnitas. O expoente de uma incógnita, como o x, desempenha um papel importante na classificação
+                    dessas equações. Na imagem desta abertura podemos ver algumas equações.</p>
+                <ol>
+                    <li>Como saber quando uma equação é do segundo grau?</li>
+                    <li>Você sabe como resolver uma equação como essa?</li>
+                </ol>
+            </div>
+        </section>
+
+        <div class="dropdown-container">
+            <button class="dropdown-toggle">
+                Ao final deste capítulo, espera-se que você seja capaz de:
+                <i class="fas fa-chevron-down dropdown-arrow"></i>
+            </button>
+            <div class="dropdown-content">
+                <ul>
+                    <li>identificar e resolver equações do 2º grau incompletas e completas;</li>
+                    <li>utilizar diferentes métodos para resolução de equações do 2º grau;</li>
+                    <li>analisar o discriminante de uma equação do 2º grau;</li>
+                    <li>resolver problemas utilizando equações do 2º grau.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="title-wrapper">
+            <img src="./imagens/marcação.png" alt="Marcador azul" class="title-marker">
+            <h2 class="content-title">Equações do 2º grau com uma incógnita</h2>
+        </div>
+        <p class="content-text">No 8º ano houve a introdução do estudo da <span class="glossary-term"
+                data-term="equacao-2-grau">equação do 2º grau</span>. Agora vamos retomar esse estudo e aprofundá-lo.
+        </p>
+
+        <div class="glossary-section">
+            <h3 class="content-subtitle">Definição de equação do 2º grau com uma incógnita</h3>
+            <dl class="glossario-principal">
+                <dt>Equação do 2º grau</dt>
+                <dd>
+                    É denominada forma geral, forma normal ou, ainda, forma reduzida a equação do 2º grau que esteja
+                    escrita na forma de $ax^2 + bx + c = 0$, com a ≠ 0.
+                </dd>
+            </dl>
+            <p><strong>Equação do 2º grau</strong>, ou equação quadrática, com uma incógnita é toda equação do tipo
+                ax<sup>2</sup> + bx + c = 0, em que x representa a incógnita e a, b e c são os coeficientes numéricos e
+                representam números reais, com a ≠ 0.</p>
+
+            <figure class="equation-figure">
+                <img src="./imagens/equação.png" alt="Diagrama da equação ax² + bx + c = 0" class="equation-image">
+            </figure>
+
+            <p>Na forma ax<sup>2</sup> + bx + c = 0 temos que:</p>
+            <ul class="coefficients-list">
+                <li>a é coeficiente numérico de x<sup>2</sup>;</li>
+                <li>b é coeficiente numérico de x;</li>
+                <li>c é denominado termo independente.</li>
+            </ul>
+            <p>Assim, por definição, são exemplos de equações do 2º grau com uma incógnita:</p>
+
+            <div class="example-block">
+                <div class="equation-line">
+                    <div class="equation-text">
+                        <span>4x<sup>2</sup> - 9 = 0</span>, em que
+                    </div>
+                    <div class="coefficients-box">
+                        <p>a = 4</p>
+                        <p>b = 0</p>
+                        <p>c = -9</p>
+                    </div>
+                </div>
+                <div class="equation-line">
+                    <div class="equation-text">
+                        <span>3x<sup>2</sup> - 5x + 12 = 0</span>, em que
+                    </div>
+                    <div class="coefficients-box">
+                        <p>a = 3</p>
+                        <p>b = -5</p>
+                        <p>c = 12</p>
+                    </div>
+                </div>
+                <div class="equation-line">
+                    <div class="equation-text">
+                        <span>-x<sup>2</sup> + 3x = 0</span>, em que
+                    </div>
+                    <div class="coefficients-box">
+                        <p>a = -1</p>
+                        <p>b = 3</p>
+                        <p>c = 0</p>
+                    </div>
+                </div>
+                <div class="equation-line fraction-block-adjusted">
+                    <div class="equation-part">
+                        <span>-</span>
+                        <span class="fraction-display">
+                            <span class="numerator">x<sup>2</sup></span>
+                            <span class="denominator">2</span>
+                        </span>
+                        <span>+ 11x - 8 = 0</span>
+                    </div>
+                    <div class="coefficients-part">
+                        <span>, em que</span>
+                        <p>a = - &frac12;</p>
+                        <p>b = 11</p>
+                        <p>c = -8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="activity-section">
+            <h3 class="content-subtitle activity-title-with-icon">
+                <span class="activity-icon"></span>Atividade
+            </h3>
+            <ol class="activity-list">
+                <li>
+                    Qual é o tema do poema?
+                    <div class="answer-line"></div>
+                </li>
+                <li>
+                    Sublinhe o trecho do poema que reconhece a importância da água para a reprodução dos seres vivos e a
+                    manutenção da vida.
+                    <div class="answer-line"></div>
+                    <div class="answer-line"></div>
+                </li>
+                <li>
+                    Como a água absorvida pelas plantas pode passar para outros seres vivos?
+                    <div class="answer-line"></div>
+                    <div class="answer-line"></div>
+                </li>
+                <li>
+                    Use a ilustração a seguir para representar o ciclo da água. Lembre-se de incluir setas e as mudanças
+                    de estado físico: condensação e evaporação.</span>
+                    <div class="image-placeholder-box">
+                        <img src="./imagens/lightbox.png" alt="Ilustração do ciclo da água"
+                            class="activity-cycle-image">
+                        <span class="image-scale-note">Imagem sem escala: cores-fantasia.</span>
+                    </div>
+                </li>
+                <li>
+                    Estudos apontam que a água tratada tem se tornado um recurso cada vez mais escasso. Converse com os
+                    colegas sobre os impactos da falta de água para os seres vivos e o que vocês podem fazer para
+                    economizar esse recurso.</span>
+                </li>
+            </ol>
+        </section>
+
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" src="./imagens/lightbox.png" alt="Ilustração do ciclo da água ampliada">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
