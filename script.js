@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dropdownContent.style.display = 'block';
         }
     });
-    
+
     const glossaryTerms = document.querySelectorAll('.glossary-term');
 
     const definitions = {
@@ -66,13 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
         term.addEventListener('mouseleave', () => {
             timeoutId = setTimeout(() => {
                 popup.style.display = 'none';
-            }, 300); 
+            }, 300);
         });
 
         popup.addEventListener('mouseenter', () => {
             clearTimeout(timeoutId);
         });
-        
+
         popup.addEventListener('mouseleave', () => {
             popup.style.display = 'none';
         });
